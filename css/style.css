@@ -232,7 +232,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-pages {
-  height: 60px;
+  height: 65px;
   padding: 10px 0;
 }
 
@@ -256,6 +256,7 @@ h6 {
   padding: 0;
   margin: 7px 0;
   max-height: 43px;
+  overflow: hidden;
 }
 
 .main-pages {
@@ -366,9 +367,9 @@ h6 {
   display: block;
   position: relative;
   color: #fff;
-  padding: 15px 12px;
+  padding: 1vw 1vw;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 1vw;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
