@@ -1708,7 +1708,7 @@ h6 {
   border: 1px solid #ddd;
   padding: 12px;
   margin-top: 100px;
-  width: 60%;
+  width: 100%;
 }
 
 #reg tr:nth-child(even){background-color: #f2f2f2;}
@@ -1737,12 +1737,13 @@ h6 {
   /* border: 1px solid #ddd; */
   padding: 12px;
   margin-top: 100px;
-  width: 100%;
+  width: 1150px;
+  text-align: center;
 }
 
-#reg1 tr:nth-child(even){background-color: #f2f2f2;}
+/* #reg1 tr:nth-child(even){background-color: #f2f2f2;}
 
-#reg1 tr:hover {background-color: #ddd;}
+#reg1 tr:hover {background-color: #ddd;} */
 
 #reg1 th {
   padding-top: 12px;
@@ -1751,6 +1752,8 @@ h6 {
   background-color: white;
   color: white;
 }
+
+
 .pre1{
   text-align: justify;
 
@@ -1763,27 +1766,14 @@ h6 {
 
 
 
-/* #annout{
-  width:0;
-  position: fixed;
-  right: 0;
-}
-#annhov{
-  height: 4vw;
-  width: 4vw;
-  position: fixed;
-  right: 0;
-  top:30vh;
-} */
 
 #annin{
-  width:25vw;
-  height: 23vw;
+  width:350px;
+  height: 400px;
   border:solid 2px;
   border-radius: 10px;
   transition: 2s;
   text-align: center;
-  display: inline-block;
 }
 
 
@@ -1791,25 +1781,42 @@ h6 {
   font-family: agencybold;
   background-color: rgba(0,0,0,0.1);
   opacity: 1;
-  padding: 5px;
-  width: 25vw;
+  padding: 0px;
   background-size: auto;
   transition: 2s;
+ 
 }
 
 #ann{
   list-style-type:none;
-  width: 25vw;
+  width: 350px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   /* padding: 1vw 1vw; */
-  line-height: 400%;
-  height: 12px;
+  line-height: 300%;
+  height: 400px;
+  
 }
-#ann li{
+/* #ann li{
   width: 25vw;
-  /* vertical-align: middle; */
-  /* font-family: Arial, Helvetica, sans-serif; */
+  vertical-align: middle;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 100 bold;
+} */
+#ann li{
+  vertical-align: middle;
+  
+  background: rgb(238, 150, 150);
+  color:#1f7576;
+  margin-top: 5px;
+  margin-left: 0px; 
+  width: 290px;
+  color: #000;
+  border:solid 1.5px;
+  padding: 10px;
+  border-radius:5px;
+  font-family: agencybold;
+  font-size:2   0px;
+  text-align: center;
 }
 
 #partners{
